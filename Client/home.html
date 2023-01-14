@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wave Prac</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body bgcolor="#0C090A" onload="getAllWaves()">
+    <H1 style="color:white"><CENTER>My Wave Portal 👋🏻</CENTER></H1>
+    <hr><br>
+    <center><button id="meta" class="button-86" role="button" onclick="login()"><span class="text">Login to Metamask</span></button></center>
+    <br>
+    <div class="lab">
+        <center>
+            <p>
+                Hi there :3 I am Priyanka!<br>
+                🌱 I’m a student, currently pursuing my undergrad in Information Technology from Vellore Institute of Technology, Vellore<br>
+                💻 I’m interested in Blockchain development , Android Development and Competitive Coding<br>
+                👩🏻‍💻 I’m currently learning WEB3 and Blockchain :)
+            </p>
+        </center>
+    </div>
+    <br>
+    <div>
+        <center>
+            <label class="lab">Enter your message : </label> <input type="text" id="inp">
+        </center>
+    </div>
+    <br><br>
+    <center><button id="wave" class="button-86" role="button" onclick="wave()"><span class="text">Wave At Me :3</span></button></center>
+    <br><br>
+    <center>
+        <div id="myDynamicTable" style="color: white;">
+            <table id="table">
+                <tr>
+                    <th>String Message</th>
+                    <TH>From (Address) </TH>
+                    <TH>Timestamp</TH>
+                </tr>
+            </table>
+        </div>
+    </center>
+    <script
+            src="https://cdnjs.cloudflare.com/ajax/libs/web3/1.7.4-rc.0/web3.min.js"
+            integrity="sha512-RGPKVfQewHGfk9yaB7ThGPKAQU+civS5awsfStLg22jrWbqgDkNzPtIwNFpFApr3ccjB730SRxi+KnDjhIuTpw=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+          ></script>
+        <script src="script.js"></script>
+</body>
+</html>
